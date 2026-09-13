@@ -1,0 +1,339 @@
+body{
+    background: #222;
+    height: 130vh;
+}
+.family{
+    border: solid 2px #040338;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px 3px #1e10976b;
+    width: 90%;
+    height: 450px;
+    margin: auto;
+    margin-top: 13px;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: system-ui;
+    color: #fff;
+}
+span{
+    color: #8c00ff;
+}
+p{
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+input{
+    position: absolute;
+    left: 400px;
+    top: 108px;
+    width: 530px;
+    height: 46px;
+    border-radius: 25px;
+    background: #525253af;
+    color: #fff;
+    outline: none;
+    padding-left: 10px;
+}
+::placeholder{
+    padding-left: 10px;
+    color: #ffffff96;
+    font-size: 15px;
+}
+button{
+    position: absolute;
+    left: 825px;
+    top: 112px;
+    width: 100px;
+    padding: 7px;
+    background: #8c00ff;
+    color: #fff;
+    border-radius: 20px;
+}
+button:hover{
+    background: #8c00ffd2;
+    cursor: pointer;
+}
+.photo{
+    border: solid 2px #0d0d13;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 2px #1e10976b;
+    background: #060611;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    margin-top: 105px;
+    gap: 20px;
+    width: 85%;
+    margin-left: 100px;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+img{
+    border: solid 2px #06055c;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 3px #1e10976b;
+    width: 300px; 
+    height: 180px; 
+    margin-top: 10px;
+    color: #fff;
+}
+.image{
+    border: solid 2px #06055c;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 5px #1e10976b;
+    margin-top: 40px;
+    width: 50%;
+    height: 320px;
+    position: relative;
+}
+#img{
+    width: 160px;
+    height: 220px;
+    position: relative;
+    top: 34px;
+    left: 20px;
+}
+#h2{
+    position: relative;
+    left: 34px;
+    top: 34px;
+    color: #fff;
+}
+h3{
+    position: relative;
+    top: -210px;
+    left: 200px;
+    color: #fff;
+}
+#pr{
+    position: relative;
+    top: -205px;
+    left: 20px;
+}
+.down{
+    border: solid 2px #06055c;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 5px #1e10976b;
+    height: 150px;
+    width: 49%;
+    position: relative;
+    left: 620px;
+    top: -320px;
+}
+.direct{
+    border: solid 2px #06055c;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 5px #1e10976b;
+    height: 150px;
+    width: 49%;
+    position: relative;
+    left: 620px;
+    top: -300px;
+}
+div#circle{
+   border: solid 2px ;
+   border-color: #060611 #9900ff;
+   border-radius: 15px;
+   width: 30px;
+   height: 30px;
+   margin-left: 269px;
+   margin-top: 40px;
+}
+#movie{
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 18px;
+}
+#moment{
+    margin-top: 5px;
+    color: gray;
+    font-size: 12px;
+}
+img:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+object{
+    border: solid 2px #80808083;
+    border-radius: 15px;
+    background: #80808028;
+    color: #fff;
+    width: 80px;
+    height: 25px;
+    position: relative;
+    left: 200px;
+    top: -195px;
+}
+i{
+    font-style: normal;
+    color: gold;
+    padding: 5px;
+    position: absolute;
+    left: 0px;
+    top: -6px;
+    font-size: 15px;
+}
+u{
+    text-decoration: none;
+    font-size: 10px;
+    position: absolute;
+    left: 47px;
+    top: 5px;
+}
+h4{
+    color: #fff;
+    position: absolute;
+    top: 134px;
+    left: 200px;
+    width: 380px;
+    font-size: 12px;
+}
+#watch{
+    position: relative;
+    left: 200px;
+    top: -92px;
+    height: 30px;
+    width: 120px;
+    padding-top: 3px;
+    border-radius: 7px;
+    font-size: 14px;
+}
+#star{
+    position: relative;
+    border: solid 2px gray;
+    background: transparent;
+    left: 220px;
+    top: -92px;
+    height: 30px;
+    width: 120px;
+    padding-top: 1px;
+    border-radius: 7px;
+    font-size: 14px;
+}
+h5{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+}
+h6{
+    color: #fff;
+    text-align: center;
+}
+@media((min-width : 400px) and (max-width : 1300px)){
+    input{
+        position: absolute;
+        left: 60px;
+        top: 100px;
+    }
+    button{
+        position: absolute;
+        left: 485px;
+        top: 104px;
+    }
+    .family{
+        height: 460px;
+        width: 94%;
+        margin: auto;
+        margin-top: 13px;
+    }
+    .image{
+        width: 70%;
+    }
+    .photo{
+       margin: auto;
+       margin-top: 95px;
+       width: 95%;
+       padding: 10px;
+       height: 270px;
+    }
+    object{
+        position: relative;
+        left: 200px;
+        top: -200px;
+    }
+    h2{
+        font-size: 13px;
+    }
+    h3{
+        position: relative;
+        top: -210px;
+        left: 200px;
+    }
+    #h2{
+        position: relative;
+        left: 49px;
+        top: 34px;
+    }
+    #img{
+        position: relative;
+        top: 34px;
+        left: 20px;
+    }
+    #pr{
+        position: relative;
+        top: -205px;
+        left: 84px;
+        font-size: 12px;
+    }
+    .down{
+        border: solid 2px #06055c;
+        border-radius: 10px;
+        box-shadow: 1px 1px 4px 5px #1e10976b;
+        height: 150px;
+        width: 178px;
+        position: relative;
+        left: 460px;
+        top: -320px;
+    }
+    .direct{
+        border: solid 2px #06055c;
+        border-radius: 10px;
+        box-shadow: 1px 1px 4px 5px #1e10976b;
+        height: 150px;
+        width: 178px;
+        position: relative;
+        left: 460px;
+        top: -300px;
+    }
+    div#circle{
+        border: solid 2px ;
+        border-color: #060611 #9900ff;
+        border-radius: 15px;
+        width: 30px;
+        height: 30px;
+        margin-left: 73px;
+        margin-top: 40px;
+    }
+    h4{
+        width: 250px;
+        font-size: 11px;
+        position: absolute;
+        top: 120px;
+    }
+    #watch{
+        position: relative;
+        left: 200px;
+        top: -85px;
+        height: 30px;
+        width: 100px;
+        padding-top: 3px;
+        border-radius: 7px;
+        font-size: 14px;
+    }
+    #star{
+        position: relative;
+        left: 220px;
+        top: -85px;
+        height: 30px;
+        width: 100px;
+        padding-top: 1px;
+        border-radius: 7px;
+        font-size: 14px;
+    }
+}
