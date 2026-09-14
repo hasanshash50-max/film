@@ -226,7 +226,21 @@ h6{
     text-align: center;
 }
 @media screen and (max-width : 699px){
+    .family{
+        width: 80%;
+        position: relative;
+    }
     input{
+        position: absolute;
+        left: 28px;
+        width: 90%;
+    }
+    button{
+        position: absolute;
+        left: 410px;
+    }
+}
+/* input{
         position: absolute;
         left: 60px;
         top: 100px;
@@ -335,5 +349,4 @@ h6{
         padding-top: 1px;
         border-radius: 7px;
         font-size: 14px;
-    }
-}
+    } */

@@ -32,20 +32,16 @@ export default function Api() {
       <h1>
         Discover <span>Movies</span>
       </h1>
-
       <p>
         Search for you favourite movies and explore details , ratings , and more
       </p>
-
       <input
         type="text"
         placeholder="🔍   Search for a movie..."
         value={search}
         onChange={(e) => setSearch(e.target.value)}
       />
-
-      <button onClick={handleSearch}>Search</button>
-
+      <button onClick={handleSearch} id="button">Search</button>
       <div className="photo">
         {results.length > 0 ? (
           results.map((show) => (
@@ -120,6 +116,6 @@ export default function Api() {
         <h5>🔎❌</h5>
         <h6>error Network</h6>
       </div>
-    </div>
+      </div>
   );
 }
