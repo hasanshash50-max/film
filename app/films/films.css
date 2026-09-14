@@ -458,27 +458,3 @@ h6{
         font-size: 14px;
     }
 } 
-@media screen and (max-width : 700px){
-    .family{
-        width: 83%;
-        height: 430px;
-        position: relative;
-    }
-    input{
-        width: 86%;
-        position: absolute;
-        left: 30px;
-    }
-    button{
-        position: absolute;
-        left: 410px;
-    }
-    .photo{
-        width: 90%;
-        height: 254px;
-    }
-    img{
-        height: 120px;
-        width: 99%;
-    }
-}
