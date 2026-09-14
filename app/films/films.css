@@ -44,9 +44,9 @@ input{
     font-size: 15px;
 }
 button{
-    position: absolute;
+    /* position: absolute;
     left: 825px;
-    top: 112px;
+    top: 112px; */
     width: 100px;
     padding: 7px;
     background: #8c00ff;
@@ -65,7 +65,7 @@ button:hover{
     height: 250px;
     display: flex;
     justify-content: center;
-    margin-top: 105px;
+    margin-top: 60px;
     gap: 20px;
     width: 85%;
     margin-left: 100px;
@@ -225,7 +225,7 @@ h6{
     color: #fff;
     text-align: center;
 }
-@media screen and (max-width : 400px){
+/* @media screen and (max-width : 400px){
     .family{
         width: 94%;
         position: relative;
@@ -350,5 +350,40 @@ h6{
         padding-top: 1px;
         border-radius: 7px;
         font-size: 14px;
+    }
+} */
+
+@media (max-width : 699px){
+    .family{
+        width: 90%;
+        position: relative;
+    }
+    input{
+        position: absolute;
+        left: 50px;
+        top: 85px;
+        width: 80%;
+    }
+    button{
+       position: absolute;
+       right: 77px;
+       top: 88px;
+    }
+    .photo{
+        position: relative;
+        left: -90px;
+        top: 40px;
+        width: 96%;
+    }
+    img{
+        width: 200px;
+        height: 140px;
+        margin-top: 20px;
+    }
+    h2{
+        font-size: 14px;
+    }
+    .image{
+        width: 60%;
     }
 }

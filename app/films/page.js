@@ -41,7 +41,7 @@ export default function Api() {
         value={search}
         onChange={(e) => setSearch(e.target.value)}
       />
-      <button onClick={handleSearch} id="button">Search</button>
+      <button  onClick={handleSearch}>Search</button>
       <div className="photo">
         {results.length > 0 ? (
           results.map((show) => (
