@@ -225,7 +225,7 @@ h6{
     color: #fff;
     text-align: center;
 }
-@media (max-width: 699px) {
+@media (max-width: 499px) {
 
     .family {
         height: auto;
@@ -458,3 +458,22 @@ h6{
         font-size: 14px;
     }
 } 
+@media screen and (max-width : 700px){
+    .family{
+        width: 76%;
+        height: 430px;
+    }
+    input{
+        width: 420px;
+        position: absolute;
+        left: 130px;
+    }
+    button{
+        position: absolute;
+        left: 445px;
+    }
+    .photo{
+        width: 95%;
+        height: 250px;
+    }
+}
