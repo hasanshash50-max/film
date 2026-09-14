@@ -460,18 +460,18 @@ h6{
 } 
 @media screen and (max-width : 700px){
     .family{
-        width: 76%;
+        width: 83%;
         height: 430px;
         position: relative;
     }
     input{
-        width: 84%;
+        width: 86%;
         position: absolute;
-        left: 40px;
+        left: 30px;
     }
     button{
         position: absolute;
-        left: 366px;
+        left: 410px;
     }
     .photo{
         width: 90%;
