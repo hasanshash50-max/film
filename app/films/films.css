@@ -462,18 +462,30 @@ h6{
     .family{
         width: 76%;
         height: 430px;
+        position: relative;
     }
     input{
-        width: 420px;
+        width: 430px;
         position: absolute;
-        left: 130px;
+        left: 40px;
     }
     button{
         position: absolute;
-        left: 445px;
+        left: 366px;
     }
     .photo{
-        width: 95%;
-        height: 250px;
+        width: 90%;
+        height: 254px;
+        position: relative;
+    }
+    img{
+        height: 120px;
+        width: 99%;
+        position: relative;
+        top: 30px;
+    }
+    h2{
+        position: relative;
+        top: 40px;
     }
 }
