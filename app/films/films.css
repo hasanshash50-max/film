@@ -476,16 +476,9 @@ h6{
     .photo{
         width: 90%;
         height: 254px;
-        position: relative;
     }
     img{
         height: 120px;
         width: 99%;
-        position: relative;
-        top: 30px;
-    }
-    h2{
-        position: relative;
-        top: 40px;
     }
 }
