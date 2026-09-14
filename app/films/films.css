@@ -225,7 +225,7 @@ h6{
     color: #fff;
     text-align: center;
 }
-@media (max-width: 499px) {
+@media (max-width: 700px) and (orientation: landscape) {
 
     .family {
         height: auto;
