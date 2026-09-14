@@ -225,116 +225,7 @@ h6{
     color: #fff;
     text-align: center;
 }
-@media (max-width: 720px) and (orientation: landscape) {
-
-    .family {
-        height: auto;
-        width: 94%;
-        margin: auto;
-        margin-top: 13px;
-    }
-    .image {
-        width: 70%;
-    }
-    .photo {
-        margin: auto;
-        margin-top: 95px;
-        width: 90%;
-        padding: 10px;
-        height: 270px;
-    }
-    object {
-        position: relative;
-        left: 0px;
-        top: 0;
-        max-width: 100%;
-    }
-    h2 {
-        font-size: 13px;
-    }
-    h3 {
-        position: relative;
-        top: 0;
-        left: 0;
-    }
-
-    #h2 {
-        position: relative;
-        left: 0;
-        top: 34px;
-    }
-    #img {
-        position: relative;
-        top: 34px;
-        left: 0;
-        max-width: 100%;
-    }
-    #pr {
-        position: relative;
-        top: 0;
-        left: 0;
-        font-size: 12px;
-    }
-    .down {
-        border: solid 2px #06055c;
-        border-radius: 10px;
-        box-shadow: 1px 1px 4px 5px #1e10976b;
-        height: 150px;
-        margin: 15px;
-        margin-left: 5px;
-        margin-top: 1px;
-    }
-    .direct {
-        border: solid 2px #06055c;
-        border-radius: 10px;
-        box-shadow: 1px 1px 4px 5px #1e10976b;
-        height: 150px;
-        width: 178px;
-        margin: 15px;
-        margin-left: 5px;
-        margin-top: -20px;
-    }
-
-    div#circle {
-        border: solid 2px;
-        border-color: #060611 #9900ff;
-        border-radius: 15px;
-        width: 30px;
-        height: 30px;
-        margin: 40px auto 0;
-    }
-
-    h4 {
-        width: 90%;
-        font-size: 11px;
-        position: relative;
-        top: 0;
-        margin: 15px auto;
-        margin-top: 3px;
-    }
-    #watch {
-        position: relative;
-        left: 0;
-        top: 0;
-        height: 30px;
-        width: 100px;
-        padding-top: 3px;
-        margin-top: 3px;
-        border-radius: 7px;
-        font-size: 14px;
-    }
-    #star {
-        position: relative;
-        left: 0;
-        top: 0;
-        height: 30px;
-        width: 100px;
-        padding-top: 1px;
-        border-radius: 7px;
-        font-size: 14px;
-    }
-}
-/* @media screen and (max-width : 699px){
+@media screen and (max-width : 699px){
     input{
         position: absolute;
         left: 60px;
@@ -445,4 +336,4 @@ h6{
         border-radius: 7px;
         font-size: 14px;
     }
-} */
+}
